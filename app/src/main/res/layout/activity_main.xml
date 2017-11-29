@@ -36,6 +36,7 @@
             android:drawablePadding="5dp"
             android:drawableTop="@drawable/ic_assignment_ind_gray_24dp"
             android:gravity="center"
+            android:onClick="doClick"
             android:paddingBottom="2dp"
             android:paddingTop="10dp"
             android:text="個人資訊"
@@ -53,7 +54,8 @@
             android:paddingBottom="2dp"
             android:paddingTop="10dp"
             android:text="商品資訊"
-            android:textColor="@color/colorTextDisable" />
+            android:textColor="@color/colorTextDisable"
+            android:onClick="doClick"/>
 
         <RadioButton
             android:id="@+id/rbSetting"
@@ -67,7 +69,8 @@
             android:paddingBottom="2dp"
             android:paddingTop="10dp"
             android:text="設定"
-            android:textColor="@color/colorTextDisable" />
+            android:textColor="@color/colorTextDisable"
+            android:onClick="doClick"/>
 
         <RadioButton
             android:id="@+id/rbMessage"
@@ -81,7 +84,8 @@
             android:paddingBottom="2dp"
             android:paddingTop="10dp"
             android:text="訊息"
-            android:textColor="@color/colorTextDisable" />
+            android:textColor="@color/colorTextDisable"
+            android:onClick="doClick"/>
     </RadioGroup>
 
 </android.support.constraint.ConstraintLayout>
