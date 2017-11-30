@@ -20,7 +20,7 @@
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="0dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:background="#1c2038"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,8 +36,9 @@
             android:drawablePadding="5dp"
             android:drawableTop="@drawable/ic_assignment_ind_gray_24dp"
             android:gravity="center"
+            android:onClick="doClick"
             android:paddingBottom="2dp"
-            android:paddingTop="2dp"
+            android:paddingTop="10dp"
             android:text="個人資訊"
             android:textColor="@color/colorTextDisable" />
 
@@ -51,9 +52,10 @@
             android:drawableTop="@drawable/ic_free_breakfast_gray_24dp"
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingTop="2dp"
+            android:paddingTop="10dp"
             android:text="商品資訊"
-            android:textColor="@color/colorTextDisable" />
+            android:textColor="@color/colorTextDisable"
+            android:onClick="doClick"/>
 
         <RadioButton
             android:id="@+id/rbSetting"
@@ -65,9 +67,10 @@
             android:drawableTop="@drawable/ic_settings_gray_24dp"
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingTop="2dp"
+            android:paddingTop="10dp"
             android:text="設定"
-            android:textColor="@color/colorTextDisable" />
+            android:textColor="@color/colorTextDisable"
+            android:onClick="doClick"/>
 
         <RadioButton
             android:id="@+id/rbMessage"
@@ -79,9 +82,10 @@
             android:drawableTop="@drawable/ic_message_gray_24dp"
             android:gravity="center"
             android:paddingBottom="2dp"
-            android:paddingTop="2dp"
+            android:paddingTop="10dp"
             android:text="訊息"
-            android:textColor="@color/colorTextDisable" />
+            android:textColor="@color/colorTextDisable"
+            android:onClick="doClick"/>
     </RadioGroup>
 
 </android.support.constraint.ConstraintLayout>
